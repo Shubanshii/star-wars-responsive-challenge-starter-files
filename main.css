@@ -1,8 +1,10 @@
 
+main {
+	padding-top: 10%;
+}
 
 main .row {
-  margin-bottom: 20px;
-  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .border {
@@ -34,16 +36,6 @@ h4.lower-caption {
 	padding-left: 5%;
 }
 
-@media only screen and (min-width: 640px) {
-	.container {
-    width: 100%;
-    background-color: orange;
-    padding-left: 15.5%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-}
-
 
 h1.charhead{
 	margin: 0px;
@@ -51,4 +43,17 @@ h1.charhead{
 
 h4.incomplete {
 	margin: 0px;
+}
+
+@media only screen and (min-width: 640px) {
+	.container {
+    width: 100%;
+    background-color: orange;
+    padding-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+	main{
+		padding-top: 2%;
+	}
 }

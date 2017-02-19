@@ -50,6 +50,7 @@
   /* 4 columns, 4/12 in % */
   .col-4 {
     width: 33.33%;
+    margin-bottom: 0px;
   }
 
   /* 6 columns 6/12 in % */
